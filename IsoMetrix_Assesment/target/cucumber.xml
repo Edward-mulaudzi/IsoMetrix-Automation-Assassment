@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="18.151">
+    <testcase classname="Login" name="Select exact data only for Module A2 -Textbox" time="18.056">
+        <system-out><![CDATA[Given User Navigates to isometrix site......................................passed
+And User login using valid "Candi1" and "Candi1!"...........................passed
+When User Navigate to "Module C2" page......................................passed
+And User Clicks on "Add" button.............................................passed
+And User Navigate to "Module Sources" page..................................passed
+And User Navigate to "Module A2 - Specific" page............................passed
+And User Clicks on "A2 Column 1" check box..................................passed
+And User Clicks on "A2 Column 2" check box..................................passed
+And User Clicks on "A2 Column 3" check box..................................passed
+And User Clicks on "A2 Column 4" check box..................................passed
+Then User Clicks on "Save" button...........................................passed
+Then User Clicks on "Logout" button.........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="IsoMetrix Test Report" verbose="1">
+    <listeners>
+        <listener class-name="Reports.Listeners"/>
+    </listeners>
+    <test name="UI testing">
+        <classes>
+            <class name="RunnerClass.RunnerClass"/>
+        </classes>
+    </test>
+</suite>
